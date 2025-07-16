@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pruebatec_laboral")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f59438e9668d3a8b59a37db4ceea9f6d1f03d48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0c6748d146fe8cf690a6f9760e1aa5a0eb400a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pruebatec_laboral")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pruebatec_laboral")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

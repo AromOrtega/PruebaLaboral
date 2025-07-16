@@ -19,12 +19,18 @@ namespace Pruebatec_laboral.Controllers
         }
 
         // GET: Trabajadores
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string sexo)
         {
             var data = await _context.TrabajadorLista
                 .FromSqlRaw("EXEC sp_ListarTrabajadores")
                 .ToListAsync();
 
+            if (!string.IsNullOrEmpty(sexo))
+            {
+                data = data.Where(t => t.Sexo.Equals(sexo, StringComparison.OrdinalIgnoreCase)).ToList();
+            }
+
+            ViewBag.Sexo = sexo;
             return View(data);
         }
 

@@ -7,6 +7,17 @@
 
 <h1 class="text-center my-4">Listado de Trabajadores</h1>
 
+<!-- Filtro por sexo -->
+<form asp-action="Index" method="get" class="mb-3 d-flex align-items-center gap-2">
+    <label for="sexo">Filtrar por sexo:</label>
+    <select id="sexo" name="sexo" class="form-select w-auto">
+        <option value="">-- Todos --</option>
+        <option value="M" selected="@(ViewBag.Sexo == "M" ? "selected" : "")">Masculino</option>
+        <option value="F" selected="@(ViewBag.Sexo == "F" ? "selected" : "")">Femenino</option>
+    </select>
+    <button type="submit" class="btn btn-outline-primary">Filtrar</button>
+</form>
+
 <div class="text-end mb-3">
     <button class="btn btn-primary btn-crear">+ Nuevo Trabajador</button>
 </div>
@@ -27,7 +38,15 @@
     <tbody class="align-middle">
         @foreach (var item in Model)
         {
-            <tr>
+            string rowClass = "";
+
+            if (!string.IsNullOrEmpty(ViewBag.Sexo as string))
+            {
+                rowClass = item.Sexo == "M" ? "table-primary" :
+                item.Sexo == "F" ? "table-warning" : "";
+            }
+
+            <tr class="@rowClass">
                 <td>@Html.DisplayFor(modelItem => item.TipoDocumento)</td>
                 <td>@Html.DisplayFor(modelItem => item.NumeroDocumento)</td>
                 <td>@Html.DisplayFor(modelItem => item.Nombres)</td>
@@ -68,15 +87,14 @@
                 $('#modalGeneral .modal-body').load('/Trabajadores/Create');
             });
 
-
-            //  Editar
+            // Editar
             $('.btn-editar').click(function () {
                 var id = $(this).data('id');
                 $('#modalGeneral').modal('show');
                 $('#modalGeneral .modal-body').load('/Trabajadores/Edit/' + id);
             });
 
-            //  Eliminar
+            // Eliminar
             $('.btn-eliminar').click(function () {
                 var id = $(this).data('id');
                 $('#modalGeneral').modal('show');
