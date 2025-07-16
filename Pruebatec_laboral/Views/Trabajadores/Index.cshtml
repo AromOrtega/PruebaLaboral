@@ -1,73 +1,79 @@
-﻿@model IEnumerable<Pruebatec_laboral.Models.Trabajadores>
+﻿@model IEnumerable<Pruebatec_laboral.Models.TrabajadorLista>
 
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1 class="text-center my-4">Listado de Trabajadores</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+<div class="text-end mb-3">
+    <a asp-action="Create" class="btn btn-success">+ Nuevo Trabajador</a>
+</div>
+
+<table class="table table-bordered table-striped table-hover shadow-sm">
+    <thead class="table-dark text-center">
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.TipoDocumento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NumeroDocumento)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombres)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sexo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdDepartamentoNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdDistritoNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdProvinciaNavigation)
-            </th>
-            <th>
-                Acción
-            </th>
+            <th>@Html.DisplayNameFor(model => model.TipoDocumento)</th>
+            <th>@Html.DisplayNameFor(model => model.NumeroDocumento)</th>
+            <th>@Html.DisplayNameFor(model => model.Nombres)</th>
+            <th>@Html.DisplayNameFor(model => model.Sexo)</th>
+            <th>@Html.DisplayNameFor(model => model.NombreDepartamento)</th>
+            <th>@Html.DisplayNameFor(model => model.NombreDistrito)</th>
+            <th>@Html.DisplayNameFor(model => model.NombreProvincia)</th>
+            <th>Acción</th>
         </tr>
     </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.TipoDocumento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumeroDocumento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombres)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sexo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdDepartamentoNavigation.NombreDepartamento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdDistritoNavigation.NombreDistrito)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdProvinciaNavigation.NombreProvincia)
-            </td>
-            <td> 
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+    <tbody class="align-middle">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TipoDocumento)</td>
+                <td>@Html.DisplayFor(modelItem => item.NumeroDocumento)</td>
+                <td>@Html.DisplayFor(modelItem => item.Nombres)</td>
+                <td>@Html.DisplayFor(modelItem => item.Sexo)</td>
+                <td>@Html.DisplayFor(modelItem => item.NombreDepartamento)</td>
+                <td>@Html.DisplayFor(modelItem => item.NombreDistrito)</td>
+                <td>@Html.DisplayFor(modelItem => item.NombreProvincia)</td>
+                <td class="text-center">
+                    <button class="btn btn-sm btn-primary btn-editar" data-id="@item.Id">Editar</button>
+                    <button class="btn btn-sm btn-danger btn-eliminar" data-id="@item.Id">Eliminar</button>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<!-- Modal general -->
+<div class="modal fade" id="modalGeneral" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Aquí se cargará el contenido de Edit o Delete -->
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Botón Editar
+            $('.btn-editar').click(function () {
+                var id = $(this).data('id');
+                $('#modalGeneral').modal('show');
+                $('#modalGeneral .modal-body').load('/Trabajadores/Edit/' + id);
+            });
+
+            // Botón Eliminar
+            $('.btn-eliminar').click(function () {
+                var id = $(this).data('id');
+                $('#modalGeneral').modal('show');
+                $('#modalGeneral .modal-body').load('/Trabajadores/Delete/' + id);
+            });
+        });
+    </script>
+}

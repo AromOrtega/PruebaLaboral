@@ -21,7 +21,7 @@ namespace Pruebatec_laboral.Controllers
         // GET: Trabajadores
         public async Task<IActionResult> Index()
         {
-            var data = await _context.Trabajadores
+            var data = await _context.TrabajadorLista
                 .FromSqlRaw("EXEC sp_ListarTrabajadores")
                 .ToListAsync();
 
