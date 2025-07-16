@@ -8,7 +8,7 @@
 <h1 class="text-center my-4">Listado de Trabajadores</h1>
 
 <div class="text-end mb-3">
-    <a asp-action="Create" class="btn btn-success">+ Nuevo Trabajador</a>
+    <button class="btn btn-primary btn-crear">+ Nuevo Trabajador</button>
 </div>
 
 <table class="table table-bordered table-striped table-hover shadow-sm">
@@ -36,7 +36,7 @@
                 <td>@Html.DisplayFor(modelItem => item.NombreDistrito)</td>
                 <td>@Html.DisplayFor(modelItem => item.NombreProvincia)</td>
                 <td class="text-center">
-                    <button class="btn btn-sm btn-primary btn-editar" data-id="@item.Id">Editar</button>
+                    <button class="btn btn-sm btn-warning btn-editar" data-id="@item.Id">Editar</button>
                     <button class="btn btn-sm btn-danger btn-eliminar" data-id="@item.Id">Eliminar</button>
                 </td>
             </tr>
@@ -52,7 +52,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
             <div class="modal-body">
-                <!-- Aquí se cargará el contenido de Edit o Delete -->
+                <!-- Edit o Delete -->
             </div>
         </div>
     </div>
@@ -61,19 +61,28 @@
 @section Scripts {
     <script>
         $(document).ready(function () {
-            // Botón Editar
+
+            // Crear
+            $('.btn-crear').click(function () {
+                $('#modalGeneral').modal('show');
+                $('#modalGeneral .modal-body').load('/Trabajadores/Create');
+            });
+
+
+            //  Editar
             $('.btn-editar').click(function () {
                 var id = $(this).data('id');
                 $('#modalGeneral').modal('show');
                 $('#modalGeneral .modal-body').load('/Trabajadores/Edit/' + id);
             });
 
-            // Botón Eliminar
+            //  Eliminar
             $('.btn-eliminar').click(function () {
                 var id = $(this).data('id');
                 $('#modalGeneral').modal('show');
                 $('#modalGeneral .modal-body').load('/Trabajadores/Delete/' + id);
             });
+
         });
     </script>
 }

@@ -85,16 +85,24 @@ namespace Pruebatec_laboral.Controllers
                 return NotFound();
             }
 
-            var trabajadores = await _context.Trabajadores.FindAsync(id);
+            var trabajadores = await _context.Trabajadores
+                .Include(t => t.IdDepartamentoNavigation)
+                .Include(t => t.IdProvinciaNavigation)
+                .Include(t => t.IdDistritoNavigation)
+                .FirstOrDefaultAsync(t => t.Id == id);
+
             if (trabajadores == null)
             {
                 return NotFound();
             }
-            ViewData["IdDepartamento"] = new SelectList(_context.Departamentos, "Id", "Id", trabajadores.IdDepartamento);
-            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "Id", "Id", trabajadores.IdDistrito);
-            ViewData["IdProvincia"] = new SelectList(_context.Provincia, "Id", "Id", trabajadores.IdProvincia);
+
+            ViewData["IdDepartamento"] = new SelectList(_context.Departamentos, "Id", "NombreDepartamento", trabajadores.IdDepartamento);
+            ViewData["IdProvincia"] = new SelectList(_context.Provincia, "Id", "NombreProvincia", trabajadores.IdProvincia);
+            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "Id", "NombreDistrito", trabajadores.IdDistrito);
+
             return View(trabajadores);
         }
+
 
         // POST: Trabajadores/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.

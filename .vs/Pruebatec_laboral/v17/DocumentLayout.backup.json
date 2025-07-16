@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\views\\trabajadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|solutionrelative:pruebatec_laboral\\views\\trabajadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\views\\trabajadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|solutionrelative:pruebatec_laboral\\views\\trabajadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|solutionrelative:pruebatec_laboral\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\views\\trabajadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|solutionrelative:pruebatec_laboral\\views\\trabajadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|solutionrelative:pruebatec_laboral\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\views\\trabajadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|solutionrelative:pruebatec_laboral\\views\\trabajadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\views\\trabajadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|solutionrelative:pruebatec_laboral\\views\\trabajadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\views\\trabajadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|solutionrelative:pruebatec_laboral\\views\\trabajadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1893570-0C76-4125-8104-6A2A8CEBDB2C}|Pruebatec_laboral\\Pruebatec_laboral.csproj|c:\\users\\arom_\\source\\repos\\pruebatec_laboral\\pruebatec_laboral\\models\\trabajadorespruebacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,30 +90,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Pruebatec_laboral\\Views\\Trabajadores\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Delete.cshtml",
-              "RelativeToolTip": "Pruebatec_laboral\\Views\\Trabajadores\\Delete.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T18:15:44.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Edit.cshtml",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Views\\Trabajadores\\Edit.cshtml",
               "ToolTip": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Edit.cshtml",
               "RelativeToolTip": "Pruebatec_laboral\\Views\\Trabajadores\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-16T18:04:02.465Z",
               "EditorCaption": ""
@@ -117,19 +108,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Departamento.cs",
-              "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\Departamento.cs",
-              "RelativeDocumentMoniker": "Pruebatec_laboral\\Models\\Departamento.cs",
-              "ToolTip": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\Departamento.cs",
-              "RelativeToolTip": "Pruebatec_laboral\\Models\\Departamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T09:40:45.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Distrito.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\Distrito.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Models\\Distrito.cs",
@@ -142,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Trabajadores.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\Trabajadores.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Models\\Trabajadores.cs",
@@ -154,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Provincia.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\Provincia.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Models\\Provincia.cs",
@@ -167,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TrabajadoresPruebaContext.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\TrabajadoresPruebaContext.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Models\\TrabajadoresPruebaContext.cs",
@@ -180,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Properties\\launchSettings.json",
@@ -192,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Program.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Program.cs",
@@ -204,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Models\\ErrorViewModel.cs",
@@ -217,33 +195,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Index.cshtml",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Views\\Trabajadores\\Index.cshtml",
               "ToolTip": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Index.cshtml",
               "RelativeToolTip": "Pruebatec_laboral\\Views\\Trabajadores\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwDsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-16T09:53:40.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TrabajadoresController.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Controllers\\TrabajadoresController.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Controllers\\TrabajadoresController.cs",
               "ToolTip": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Controllers\\TrabajadoresController.cs",
               "RelativeToolTip": "Pruebatec_laboral\\Controllers\\TrabajadoresController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBcAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAYwGQAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-16T09:52:01.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pruebatec_laboral\\Views\\Trabajadores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Delete.cshtml",
+              "RelativeToolTip": "Pruebatec_laboral\\Views\\Trabajadores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T18:15:44.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pruebatec_laboral\\Views\\Trabajadores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Trabajadores\\Create.cshtml",
+              "RelativeToolTip": "Pruebatec_laboral\\Views\\Trabajadores\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T18:31:01.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Departamento.cs",
+              "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\Departamento.cs",
+              "RelativeDocumentMoniker": "Pruebatec_laboral\\Models\\Departamento.cs",
+              "ToolTip": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\Departamento.cs",
+              "RelativeToolTip": "Pruebatec_laboral\\Models\\Departamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:40:45.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TrabajadorLista.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Models\\TrabajadorLista.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Models\\TrabajadorLista.cs",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Views\\Shared\\_Layout.cshtml",
@@ -268,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Views\\_ViewStart.cshtml",
@@ -280,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\appsettings.Development.json",
@@ -292,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\appsettings.json",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\appsettings.json",
@@ -304,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Controllers\\HomeController.cs",
@@ -316,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Pruebatec_laboral.csproj",
               "DocumentMoniker": "C:\\Users\\arom_\\source\\repos\\Pruebatec_laboral\\Pruebatec_laboral\\Pruebatec_laboral.csproj",
               "RelativeDocumentMoniker": "Pruebatec_laboral\\Pruebatec_laboral.csproj",
