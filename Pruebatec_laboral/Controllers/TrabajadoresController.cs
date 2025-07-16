@@ -52,9 +52,10 @@ namespace Pruebatec_laboral.Controllers
         // GET: Trabajadores/Create
         public IActionResult Create()
         {
-            ViewData["IdDepartamento"] = new SelectList(_context.Departamentos, "Id", "Id");
-            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "Id", "Id");
-            ViewData["IdProvincia"] = new SelectList(_context.Provincia, "Id", "Id");
+            ViewData["IdDepartamento"] = new SelectList(_context.Departamentos, "Id", "NombreDepartamento");
+            ViewData["IdProvincia"] = new SelectList(_context.Provincia, "Id", "NombreProvincia");
+            ViewData["IdDistrito"] = new SelectList(_context.Distritos, "Id", "NombreDistrito");
+
             return View();
         }
 
